@@ -5,4 +5,4 @@ WORKDIR /app
 COPY . .
 RUN pip install -r requirements.txt
 
-CMD python ./synchronise.py
+CMD python ./ics_caldav_sync.py
